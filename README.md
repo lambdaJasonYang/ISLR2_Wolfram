@@ -1,5 +1,5 @@
 # ISLR2_Wolfram
-Mathematica package for loading ISLR2 datasets 
+Mathematica package for loading "An Introduction to Statistical Learning" (ISLR2) datasets 
 
 ## How to use
 
