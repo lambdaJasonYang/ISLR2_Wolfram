@@ -1,4 +1,7 @@
 BeginPackage["ISLR2`"];
+Unprotect["ISLR2`*"];
+ClearAll["ISLR2`*"];
+ClearAll["ISLR2`Private`*"];
 
 AdDataset::usage = "A dataset for advertising data.";
 AutoDataset::usage = "A dataset for auto data.";
@@ -58,5 +61,7 @@ PublicationDataset = Import["https://raw.githubusercontent.com/intro-stat-learni
 SmarketDataset = Import["https://raw.githubusercontent.com/intro-stat-learning/ISLP/main/ISLP/data/Smarket.csv","Dataset","HeaderLines"->1];
 WageDataset = Import["https://raw.githubusercontent.com/intro-stat-learning/ISLP/main/ISLP/data/Wage.csv","Dataset","HeaderLines"->1];
 WeeklyDataset = Import["https://raw.githubusercontent.com/intro-stat-learning/ISLP/main/ISLP/data/Weekly.csv","Dataset","HeaderLines"->1];
+
 End[];
+Protect["ISLR2`*"];
 EndPackage[];
